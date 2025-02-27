@@ -97,6 +97,10 @@ export const Navigation: FC = observer(() => {
     router.path = "/tempo"
   }, [router])
 
+    const onClickVideoTab = useCallback(() => {
+        router.path = "/video"
+    }, [router])
+
   const onClickSettings = useCallback(() => {
     rootViewStore.openSettingDialog = true
   }, [rootViewStore])
@@ -166,6 +170,25 @@ export const Navigation: FC = observer(() => {
           </TabTitle>
         </Tab>
       </Tooltip>
+
+        <Tooltip
+            title={
+                <>
+                    <Localized name="switch-tab" /> [{envString.cmdOrCtrl}+3]
+                </>
+            }
+            delayDuration={500}
+        >
+            <Tab
+                className={router.path === "/video" ? "active" : undefined}
+                onMouseDown={onClickVideoTab}
+            >
+                <TempoIcon style={IconStyle} viewBox="0 0 128 128" />
+                <TabTitle>
+                    <Localized name="video" />
+                </TabTitle>
+            </Tab>
+        </Tooltip>
 
       <FlexibleSpacer />
 

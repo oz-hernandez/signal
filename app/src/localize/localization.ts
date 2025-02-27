@@ -2,6 +2,7 @@ export default {
   en: {
     "piano-roll": "Piano Roll",
     tempo: "Tempo",
+    "video": "Video",
     "time-signature": "Time Signature",
     "add-time-signature": "Add Time Signature",
     "remove-time-signature": "Remove Time Signature",
@@ -341,6 +342,7 @@ export default {
   fr: {
     "piano-roll": "Rouleau de piano",
     tempo: "Tempo",
+    "video": "Video",
     "time-signature": "Indication de mesure",
     "add-time-signature": "Ajouter une indication de mesure",
     "remove-time-signature": "Enlever une indication de mesure",
@@ -682,6 +684,7 @@ export default {
   ja: {
     "piano-roll": "ピアノロール",
     tempo: "テンポ",
+    "video": "Video",
     "time-signature": "拍子",
     "add-time-signature": "拍子を追加",
     "remove-time-signature": "拍子を削除",
@@ -1017,6 +1020,7 @@ export default {
   "zh-Hans": {
     "piano-roll": "钢琴卷",
     tempo: "速度",
+    "video": "Video",
     "time-signature": "拍号",
     "add-time-signature": "添加拍号",
     "remove-time-signature": "删除拍号",
@@ -1353,6 +1357,7 @@ export default {
   "zh-Hant": {
     "piano-roll": "鋼琴卷軸",
     tempo: "速度",
+    "video": "Video",
     "time-signature": "拍號",
     "add-time-signature": "新增拍號",
     "remove-time-signature": "刪除拍號",
